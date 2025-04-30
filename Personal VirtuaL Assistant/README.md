@@ -48,12 +48,13 @@ This assistant combines Artificial Intelligence features like speech recognition
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/allina-ai-assistant.git
+   git clone https://github.com/AbhishekKumar3790/Virtual-Assistant.git
    cd allina-ai-assistant
    pip install -r requirements.txt
    pip install pipwin
    pipwin install pyaudio
    python allina.py
+   pip install pyttsx3 speechrecognition requests wikipedia pywhatkit pyjokes opencv-python
    ```
    ### Dependencies
 Below are the required Python packages:
@@ -65,4 +66,12 @@ Below are the required Python packages:
 - pyjokes==0.6.0
 - requests==2.31.0
 - pyaudio==0.2.13
+- datetime
+- os
+- random
+- requests
+- webbrowser
+- smtplib (standard library)
+- sys (standard library)
+- opencv-python
 
