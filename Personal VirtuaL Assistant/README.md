@@ -67,13 +67,21 @@ After cloning or downloading the repository, you need to install the required de
   ```bash
   python -m venv virtual_ai_env
   .\virtual_ai_env\Scripts\activate
-``
+
+ 2. Install Required Packages
    - pip install -r requirements.txt
    - pip install pipwin
    - pipwin install pyaudio
    - pip install pyttsx3 speechrecognition requests wikipedia pywhatkit pyjokes opencv-python
 
-   ``
+3. Configuration (Optional for Gmail Email)
+   - For email functionality using Gmail:
+   - Ensure you have 2-step verification enabled in your Gmail account.
+   - Create an App Password and replace it in the sendEmail function with your app-specific password (for security).
+     
+4. Running the Assistant
+   - python virtual_ai.py
+  
    ### Dependencies
   Below are the required Python packages:
 - PyQt5==5.15.9
