@@ -43,21 +43,39 @@ This assistant combines Artificial Intelligence features like speech recognition
 - requests – IP detection
 - Standard Libraries: webbrowser, os, datetime, subprocess
 
+### Setup and Installation
+
+#### Step 1: Install Python
+
+Make sure Python 3.7+ is installed on your system. You can download and install it from [python.org](https://www.python.org/downloads/).
+
+#### Step 2: Install Dependencies
+
+After cloning or downloading the repository, you need to install the required dependencies.
+ 
 ## Installation Instructions
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/AbhishekKumar3790/Virtual-Assistant.git
-   cd allina-ai-assistant
-   pip install -r requirements.txt
-   pip install pipwin
-   pipwin install pyaudio
-   python allina.py
-   pip install pyttsx3 speechrecognition requests wikipedia pywhatkit pyjokes opencv-python
-   ```
+   cd virtual_ai.py
+  ``
+##### Create a Virtual Environment (Optional but Recommended)
+
+- **Windows**:
+  ```bash
+  python -m venv virtual_ai_env
+  .\virtual_ai_env\Scripts\activate
+``
+   - pip install -r requirements.txt
+   - pip install pipwin
+   - pipwin install pyaudio
+   - pip install pyttsx3 speechrecognition requests wikipedia pywhatkit pyjokes opencv-python
+
+   ``
    ### Dependencies
-Below are the required Python packages:
+  Below are the required Python packages:
 - PyQt5==5.15.9
 - SpeechRecognition==3.10.0
 - pyttsx3==2.90
